@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="Search Radius"
+        android:summary="Assuming the GPS is accurate"
+        android:key="radius"
+        android:defaultValue="50"
+        android:entries="@array/radiusLabels"
+        android:entryValues="@array/radiusValues" />
+
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="radiusValues">
+        <item>50</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>5000</item>
+    </string-array>
+
+    <string-array name="radiusLabels">
+        <item>50 m</item>
+        <item>100 m</item>
+        <item>500 m</item>
+        <item>1000 m</item>
+        <item>2000 m</item>
+        <item>5000 m</item>
+    </string-array>
+</resources>
