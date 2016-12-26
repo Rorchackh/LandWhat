@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void findLandMarks(double latitude, double longitude) {
-        String API_KEY = "INSERT YOUR OWN HERE";
+        String API_KEY = getString(R.string.GOOGLE_API_KEY);
         String urlString = String.format(
             "https://maps.googleapis.com/maps/api/place/nearbysearch/json?radius=%s&location=%s,%s&key=%s&types=%s",
             Integer.parseInt(preferenceManager.getString("radius", "50")),
